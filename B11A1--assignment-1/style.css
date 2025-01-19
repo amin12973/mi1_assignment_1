@@ -645,3 +645,23 @@ figcaption {
   opacity: 0.6;
   padding-bottom: 48px;
 }
+
+
+/* footer start */
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  gap: 64px;
+}
+
+footer h1{
+  margin-top: 50px;
+}
+footer img{
+  margin-bottom: 50px;
+  padding-left: 24px;
+}
