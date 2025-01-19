@@ -534,12 +534,12 @@ figcaption {
   text-align: center;
 }
 
-.donate-now-btn{
+.donate-now-btn {
   margin-top: 24px;
   text-align: center;
   width: 151px;
   height: 56px;
-  background-color: #006A50;
+  background-color: #006a50;
   border: none;
   border-radius: 8px;
   font-size: 18px;
@@ -552,53 +552,52 @@ figcaption {
 /* donate close */
 
 /* news start */
-.news{
+.news {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   margin: 80px 0px;
-  background-color: #C6E4D6;
+  background-color: #c6e4d6;
   border-radius: 24px;
   width: 1600px;
   height: 395px;
 }
 
-.news-heading{
+.news-heading {
   font-size: 40px;
   font-weight: bold;
   height: 48px;
   margin-bottom: 16px;
 }
 
-.news-paragraph{
+.news-paragraph {
   margin: 0px 329px;
   line-height: 24px;
   font-size: 16px;
-  opacity: .6;
+  opacity: 0.6;
 }
-.news-input{
+.news-input {
   margin-top: 24px;
   width: 750px;
   height: 56px;
   text-align: center;
   border-radius: 5px;
   border: none;
-
 }
 
-.news-submit-btn{
+.news-submit-btn {
   display: flex;
 }
 
-.news-subscribe-btn{
+.news-subscribe-btn {
   margin-top: 24px;
   width: 150px;
   height: 56px;
   border: none;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: #006A50;
+  background-color: #006a50;
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
@@ -607,29 +606,27 @@ figcaption {
 
 /* news close */
 /* quote start */
-.qoute-img{
-
+.qoute-img {
   /* height: 256px; */
-  
-  background-image: url('assets/quote-bg.png');
+
+  background-image: url("assets/quote-bg.png");
   background-repeat: no-repeat;
   /* from google search */
   background-position: 24px 25px;
   background-color: #ffffff;
   border-radius: 24px;
-  
 }
 
-.quote-paragraph{
+.quote-paragraph {
   width: 1232px;
   padding-left: 24px;
   padding-top: 48px;
-  
+
   font-size: 16px;
   opacity: 0.6;
 }
 
-.quote-heading{
+.quote-heading {
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
@@ -637,7 +634,7 @@ figcaption {
   margin-top: 12px;
 }
 
-.quote-paragraph-1{
+.quote-paragraph-1 {
   padding-left: 24px;
   margin-top: 4px;
   margin-bottom: 48px;
@@ -646,10 +643,9 @@ figcaption {
   padding-bottom: 48px;
 }
 
-
 /* footer start */
 
-footer{
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -658,10 +654,21 @@ footer{
   gap: 64px;
 }
 
-footer h1{
+footer h1 {
   margin-top: 50px;
 }
-footer img{
+footer img {
   margin-bottom: 50px;
   padding-left: 24px;
 }
+
+/* from w3 school */
+.btn:hover {
+  background-color: #58d8dc;
+  font-size: 18px;
+}
+
+/* a:hover {
+  background-color: yellow;
+  font-size: 18px;
+} */
