@@ -665,7 +665,7 @@ footer img {
 /* from w3 school */
 .btn:hover {
   background-color: #58d8dc;
-  font-size: 18px;
+  /* font-size: 18px; */
 }
 
 /* a:hover {
