@@ -547,6 +547,64 @@ figcaption {
   color: #ffffff;
   margin-left: 724.5px;
   margin-right: 724.5px;
+}
 
+/* donate close */
+
+/* news start */
+.news{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 80px 0px;
+  background-color: #C6E4D6;
+  border-radius: 24px;
+  width: 1600px;
+  height: 395px;
+}
+
+.news-heading{
+  font-size: 40px;
+  font-weight: bold;
+  height: 48px;
+  margin-bottom: 16px;
+}
+
+.news-paragraph{
+  margin: 0px 329px;
+  line-height: 24px;
+  font-size: 16px;
+  opacity: .6;
+}
+.news-input{
+  margin-top: 24px;
+  width: 750px;
+  height: 56px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
 
 }
+
+.news-submit-btn{
+  display: flex;
+}
+
+.news-subscribe-btn{
+  margin-top: 24px;
+  width: 150px;
+  height: 56px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #006A50;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+/* news close */
+
+.
