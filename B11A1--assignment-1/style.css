@@ -127,6 +127,8 @@ nav {
 
 /* Sign In */
 nav .nav-btn {
+  font-size: 18px;
+  font-weight: 600;
   width: 116px;
   height: 52px;
   color: #006a50;
@@ -347,78 +349,70 @@ nav .nav-btn {
   font-weight: 500;
 }
 
-
 /* recent news start */
-.Recent-News{
-      margin-top: 80px;
+.Recent-News {
+  margin-top: 80px;
 }
-.Recent-heading{
-      font-size: 40;
-      font-weight: bold;
-      margin-bottom: 24px;
+.Recent-heading {
+  font-size: 40;
+  font-weight: bold;
+  margin-bottom: 24px;
 }
-.Recent-paragraph{
-      font-size: 16px;
-      line-height: 24px;
-      
-}
-
-.Recent-card-container{
-margin-top: 32px;
-display: flex;
-flex-direction: column;
-gap: 24px;
+.Recent-paragraph {
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.Recent-card-1{
-      display: flex;
-      justify-content: space-around;         
-      align-items: center;    
-      background-color: #ffffff;
-      border-radius: 32px;
-      /* gap: 32px;   */
-}
-
-.Recent-card-2{
+.Recent-card-container {
+  margin-top: 32px;
   display: flex;
-      justify-content: space-evenly;         
-      /* align-items: center;     */
-      background-color: #ffffff;
-      border-radius: 32px;
-      flex-direction: row-reverse;
-      /* gap: 32px; */
-
+  flex-direction: column;
+  gap: 24px;
 }
 
+.Recent-card-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 32px;
+  /* gap: 32px;   */
+}
+
+.Recent-card-2 {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center;     */
+  background-color: #ffffff;
+  border-radius: 32px;
+  flex-direction: row-reverse;
+  /* gap: 32px; */
+}
 
 .Recent-card-img {
-      margin-top: 48px; 
-      margin-bottom: 48px  ;
-      margin-left: 48px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  margin-left: 48px;
 
-      /* এখানের border radius কাজ করেনি inline style কাজ করেছে */
+  /* এখানের border radius কাজ করেনি inline style কাজ করেছে */
 
-      /*  তবে একটা box এর radius পরিবর্তন করে background img নিলেও একই কাজ করে*/
-      border-radius: 24px;    
-      
+  /*  তবে একটা box এর radius পরিবর্তন করে background img নিলেও একই কাজ করে*/
+  border-radius: 24px;
 }
 
-
-.Recent-card-heading{
+.Recent-card-heading {
   font-size: 32px;
   font-weight: bold;
   margin-top: 48px;
 }
 
-.Recent-card-text-img{
+.Recent-card-text-img {
   margin: 12px 0px;
 }
 
-
 /*recent card text */
-.Recent-card-text{
+.Recent-card-text {
   width: 744px;
-  
 }
 
 figcaption {
@@ -429,7 +423,7 @@ figcaption {
   opacity: 0.5;
 }
 
-.Recent-card-paragraph{
+.Recent-card-paragraph {
   /* width: 744px; */
   margin-top: 12px;
   font-size: 16px;
@@ -438,63 +432,121 @@ figcaption {
   margin-bottom: 32px;
 }
 
-.Recent-card-btn{
+.Recent-card-btn {
   width: 139px;
   height: 48px;
-  background-color: #006A50;
+  background-color: #006a50;
   color: white;
   border: none;
   border-radius: 5px;
   margin-bottom: 48px;
 }
 
-
 /* recent close */
 
 /* donate start */
 
-.donate{
-       
-      text-align: center;  
-      width: 1280px;    
-      height: 464px;  
-      text-align: center;
+.donate {
+  /* text-align: center; */
+  width: 1280px;
+  /* height: 464px;   */
+  margin-left: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
-.donate-heading{
+.donate-heading {
   margin-top: 80px;
   margin-bottom: 24px;
   font-size: 40px;
   font-weight: bold;
+  text-align: center;
 }
-.donate-paragraph{
+.donate-paragraph {
   margin-bottom: 32px;
   font-size: 16px;
   line-height: 24px;
-  padding-left: 88px;
-  padding-right: 88px;
-
+  padding-left: 100px;
+  /* padding-right: 88px; */
+  text-align: center;
 }
 
-.donate-btn-container{
-  /* width: 1071px;
-  height: 128px; */
+.donate-btn-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 24px;
-  margin-left: 115.5px;
-  margin-right: 104.5px;
+  margin-left: 264px;
+  /* margin-right: 264px; */
   text-align: center;
-  
+  width: 1071px;
 }
 
-.donate-btn{
-  
+.donate-btn-1 {
   width: 240px;
   height: 128px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 16px;
-  font-size: 40;
+  font-size: 40px;
   font-weight: bold;
   border: none;
+}
+
+.donate-btn-2 {
+  width: 240px;
+  height: 128px;
+  background-color: #c6e4d6;
+  border-radius: 16px;
+  font-size: 40px;
+  font-weight: bold;
+  border: none;
+}
+
+.donate-btn-3 {
+  width: 240px;
+  height: 128px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  font-size: 40px;
+  font-weight: bold;
+  border: none;
+}
+
+.donate-btn-4 {
+  width: 240px;
+  height: 128px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  font-size: 40px;
+  font-weight: bold;
+  border: none;
+}
+
+.donate-input {
+  margin-top: 24px;
+  width: 1032px;
+  height: 64px;
+  background-color: #ffffff;
+  margin-left: 280px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.donate-now-btn{
+  margin-top: 24px;
+  text-align: center;
+  width: 151px;
+  height: 56px;
+  background-color: #006A50;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 724.5px;
+  margin-right: 724.5px;
+
+
 }
