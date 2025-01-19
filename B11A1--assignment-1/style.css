@@ -606,5 +606,42 @@ figcaption {
 }
 
 /* news close */
+/* quote start */
+.qoute-img{
 
-.
+  /* height: 256px; */
+  
+  background-image: url('assets/quote-bg.png');
+  background-repeat: no-repeat;
+  /* from google search */
+  background-position: 24px 25px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  
+}
+
+.quote-paragraph{
+  width: 1232px;
+  padding-left: 24px;
+  padding-top: 48px;
+  
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.quote-heading{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  padding-left: 24px;
+  margin-top: 12px;
+}
+
+.quote-paragraph-1{
+  padding-left: 24px;
+  margin-top: 4px;
+  margin-bottom: 48px;
+  font-size: 16px;
+  opacity: 0.6;
+  padding-bottom: 48px;
+}
